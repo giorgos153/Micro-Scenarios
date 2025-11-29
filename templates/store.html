@@ -4,8 +4,8 @@
 <section class="hero store-hero">
   <h1>Scenario Packs Store</h1>
   <p class="hero-subtitle">
-    Unlock premium micro-scenario packs to keep practicing real-life conversations.
-    Try the free pack on the home page, then grab a paid pack to go deeper.
+    Unlock premium micro-scenario packs and practice deeper, more specific situations.
+    Buy a pack, receive your unlock code, and enter it once to enable it on this browser.
   </p>
 </section>
 
@@ -17,11 +17,22 @@
         <h3 class="product-title">{{ p.name }}</h3>
         <p class="product-price">{{ p.price }}</p>
         <p class="product-description">{{ p.description }}</p>
+        <p class="product-extra">
+          You will receive an unlock code after purchase. Enter it on the site to access the interactive version.
+        </p>
         <div class="product-actions">
           <a href="{{ p.preview_url }}" class="btn-secondary">Preview</a>
           <a href="{{ p.buy_url }}" class="btn-primary" target="_blank" rel="noopener">
             Buy now
           </a>
+        </div>
+        <div class="product-unlock">
+          {% if premium_unlocked %}
+            <span class="pill">Unlocked on this browser</span>
+            <a href="{{ p.premium_url }}" class="link-quiet">Go to pack →</a>
+          {% else %}
+            <a href="{{ url_for('unlock') }}" class="link-quiet">Already bought? Enter your unlock code →</a>
+          {% endif %}
         </div>
       </article>
     {% endfor %}

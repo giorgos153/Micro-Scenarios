@@ -7,7 +7,7 @@
     <h1>{{ pack_name }}</h1>
     <p class="hero-subtitle">
       Here are a few sample scenarios from this pack. The full version includes many more,
-      plus detailed outcomes and coaching insights for each choice.
+      plus detailed outcomes and coaching insights for each choice, unlocked directly on this site.
     </p>
   </header>
 
@@ -24,10 +24,18 @@
   </section>
 
   <div class="nav-row">
-    <a href="{{ url_for('store') }}" class="btn-primary">Back to store</a>
-    <a href="https://your-gumroad-or-payhip-link-here" class="btn-secondary" target="_blank" rel="noopener">
-      Buy the full pack
+    <a href="{{ url_for('store') }}" class="btn-secondary">Back to store</a>
+    <a href="https://your-gumroad-or-payhip-link-here" class="btn-primary" target="_blank" rel="noopener">
+      Buy this pack
     </a>
+  </div>
+
+  <div class="nav-row">
+    {% if premium_unlocked %}
+      <a href="{{ url_for('premium_dating_pack') }}" class="link-quiet">This pack is unlocked on this browser. Go to the interactive version →</a>
+    {% else %}
+      <a href="{{ url_for('unlock') }}" class="link-quiet">Already bought? Enter your unlock code →</a>
+    {% endif %}
   </div>
 </article>
 {% endblock %}

@@ -475,3 +475,69 @@ a {
   color: var(--text-secondary);
   font-size: 0.9rem;
 }
+
+
+/* Unlock & notices */
+
+.unlock-view {
+  background: rgba(15, 23, 42, 0.94);
+  border-radius: 24px;
+  padding: 1.5rem 1.4rem 1.75rem;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+}
+
+.unlock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.unlock-form label {
+  font-size: 0.9rem;
+}
+
+.unlock-form input[type="text"] {
+  padding: 0.55rem 0.7rem;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background: #020617;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.unlock-form input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.notice {
+  border-radius: 16px;
+  padding: 0.9rem 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.notice-success {
+  background: rgba(22, 163, 74, 0.12);
+  border: 1px solid rgba(22, 163, 74, 0.4);
+  color: #bbf7d0;
+}
+
+.notice-error {
+  background: rgba(220, 38, 38, 0.12);
+  border: 1px solid rgba(220, 38, 38, 0.45);
+  color: #fecaca;
+}
+
+.product-extra {
+  margin: 0.3rem 0 0.2rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.product-unlock {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+}
