@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero store-hero">
+  <h1>Scenario Packs Store</h1>
+  <p class="hero-subtitle">
+    Unlock premium micro-scenario packs to keep practicing real-life conversations.
+    Try the free pack on the home page, then grab a paid pack to go deeper.
+  </p>
+</section>
+
+<section class="product-list">
+  <h2>Available packs</h2>
+  <div class="product-grid">
+    {% for p in products %}
+      <article class="product-card">
+        <h3 class="product-title">{{ p.name }}</h3>
+        <p class="product-price">{{ p.price }}</p>
+        <p class="product-description">{{ p.description }}</p>
+        <div class="product-actions">
+          <a href="{{ p.preview_url }}" class="btn-secondary">Preview</a>
+          <a href="{{ p.buy_url }}" class="btn-primary" target="_blank" rel="noopener">
+            Buy now
+          </a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

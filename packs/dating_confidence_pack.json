@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "First Message Nerves",
+    "category": "Dating / Messaging",
+    "situation": "You matched with someone you really like. You’ve been staring at the chat box for 10 minutes, afraid of saying the wrong thing.",
+    "question": "What do you send as your opening message?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "“Hey.”",
+        "outcome": "They might reply, but it doesn’t give them much to work with. The conversation starts flat.",
+        "insight": "Low-effort openers lead to low-energy conversations. You don’t need to be clever, just specific."
+      },
+      {
+        "id": "B",
+        "label": "“Hey, I saw you love hiking. What’s your favorite trail you’ve ever done?”",
+        "outcome": "You show you actually read their profile and give them a fun, easy question to answer. The chat feels more alive from the start.",
+        "insight": "Pointing at something specific in their profile makes you stand out from generic messages."
+      },
+      {
+        "id": "C",
+        "label": "A long paragraph telling your entire life story and what you want in a partner.",
+        "outcome": "It can feel intense for a first message. They may feel pressure to respond perfectly or not at all.",
+        "insight": "You can be sincere without oversharing. First messages work best when they’re light and open-ended."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Late Reply Anxiety",
+    "category": "Dating / Messaging",
+    "situation": "You had a great back-and-forth with someone yesterday. Today, they haven’t replied to your last message for 9 hours.",
+    "question": "What do you do?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Send three follow-up messages asking if everything is okay.",
+        "outcome": "You come across as anxious and they may feel pressured or overwhelmed.",
+        "insight": "Stacked messages can turn natural delays into uncomfortable pressure."
+      },
+      {
+        "id": "B",
+        "label": "Do nothing for now and focus on your own day.",
+        "outcome": "You give them space to reply in their own time. When they do, the conversation feels more relaxed.",
+        "insight": "Not everyone lives in their messages. Allowing space respects both of your lives outside the chat."
+      },
+      {
+        "id": "C",
+        "label": "Unmatch them immediately so you don’t have to feel uncertain.",
+        "outcome": "You protect yourself from uncertainty but also cut off a potentially good connection prematurely.",
+        "insight": "Ending things quickly to avoid discomfort can keep you safe, but it can also limit opportunities."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Choosing a First-Date Plan",
+    "category": "Dating / Planning",
+    "situation": "You’re about to suggest a first date. You want it to feel low-pressure but not boring.",
+    "question": "What do you suggest?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "A long fancy dinner at an expensive restaurant.",
+        "outcome": "It can feel high-pressure and hard to leave if there’s no chemistry.",
+        "insight": "First dates usually work better when there’s an easy ‘exit’ and the option to extend if it’s going well."
+      },
+      {
+        "id": "B",
+        "label": "“Want to grab a coffee and walk around the park near [place] this weekend?”",
+        "outcome": "It’s casual, public, and gives you both something to look at besides each other.",
+        "insight": "Simple, time-limited plans reduce pressure and make it easier to relax into conversation."
+      },
+      {
+        "id": "C",
+        "label": "“Come over to my place and we’ll see what happens.”",
+        "outcome": "For many people, this feels unsafe or overly sexual for a first meeting.",
+        "insight": "Inviting someone to your home too early can send signals you may not intend and reduce their sense of safety."
+      }
+    ]
+  }
+]

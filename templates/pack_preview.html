@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="pack-preview">
+  <header>
+    <p class="scenario-category">Premium pack preview</p>
+    <h1>{{ pack_name }}</h1>
+    <p class="hero-subtitle">
+      Here are a few sample scenarios from this pack. The full version includes many more,
+      plus detailed outcomes and coaching insights for each choice.
+    </p>
+  </header>
+
+  <section class="preview-scenarios">
+    <ul class="preview-list">
+      {% for s in scenarios %}
+        <li class="preview-card">
+          <h3>{{ s.title }}</h3>
+          <p class="preview-category">{{ s.category }}</p>
+          <p class="preview-situation">{{ s.situation }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <div class="nav-row">
+    <a href="{{ url_for('store') }}" class="btn-primary">Back to store</a>
+    <a href="https://your-gumroad-or-payhip-link-here" class="btn-secondary" target="_blank" rel="noopener">
+      Buy the full pack
+    </a>
+  </div>
+</article>
+{% endblock %}

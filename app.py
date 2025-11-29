@@ -6,9 +6,23 @@ app = Flask(__name__)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCENARIO_PATH = os.path.join(BASE_DIR, "scenarios.json")
+PACKS_DIR = os.path.join(BASE_DIR, "packs")
+DATING_PACK_PATH = os.path.join(PACKS_DIR, "dating_confidence_pack.json")
 
 with open(SCENARIO_PATH, "r", encoding="utf-8") as f:
     SCENARIOS = json.load(f)
+
+# Products for the /store page
+PRODUCTS = [
+    {
+        "slug": "dating-confidence-pack",
+        "name": "Dating & Social Confidence Pack",
+        "price": "$4.99",
+        "description": "15 micro-scenarios to practice messaging, first dates, and confident communication.",
+        "preview_url": "/store/dating-confidence-preview",
+        "buy_url": "https://your-gumroad-or-payhip-link-here"
+    }
+]
 
 
 def get_scenario(scenario_id: int):
@@ -52,6 +66,28 @@ def scenario_result(scenario_id):
         return redirect(url_for("scenario_view", scenario_id=scenario_id))
 
     return render_template("result.html", scenario=scenario, choice=choice_data)
+
+
+@app.route("/store")
+def store():
+    return render_template("store.html", products=PRODUCTS)
+
+
+@app.route("/store/dating-confidence-preview")
+def dating_confidence_preview():
+    try:
+        with open(DATING_PACK_PATH, "r", encoding="utf-8") as f:
+            pack_data = json.load(f)
+    except FileNotFoundError:
+        abort(404)
+
+    # show first few scenarios as a preview (titles + situations only)
+    preview_scenarios = pack_data[:3]
+    return render_template(
+        "pack_preview.html",
+        pack_name="Dating & Social Confidence Pack",
+        scenarios=preview_scenarios
+    )
 
 
 if __name__ == "__main__":
