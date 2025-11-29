@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="home-hero">
+  <div class="home-hero-text">
+    <h1>Practice the conversations that matter before they happen.</h1>
+    <p class="hero-subtitle">
+      Micro-Scenarios gives you short, realistic situations with coaching-style feedback, so you can build confidence in tough moments at work, in dating, and in everyday life.
+    </p>
+    <div class="hero-actions">
+      <a href="{{ url_for('practice') }}" class="btn-primary">Start free practice</a>
+      <a href="{{ url_for('categories_view') }}" class="btn-secondary">Browse categories</a>
+    </div>
+    {% if recent %}
+      <div class="recent">
+        <p class="recent-label">Recently practiced:</p>
+        <ul>
+          {% for title in recent %}
+            <li>{{ title }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+  <div class="home-hero-side">
+    <div class="hero-card">
+      <p class="hero-card-label">Today’s quick drills</p>
+      <ul class="hero-scenario-list">
+        {% for s in scenarios %}
+          <li>
+            <div class="hero-scenario-title">{{ s.title }}</div>
+            <a href="{{ url_for('scenario_view', scenario_id=s.id) }}" class="link-quiet">Practice →</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="hero-card">
+      <p class="hero-card-label">Featured categories</p>
+      <ul class="hero-category-list">
+        {% for c in categories %}
+          <li>
+            <div class="hero-category-name">{{ c.name }}</div>
+            <a href="{{ url_for('category_detail', slug=c.slug) }}" class="link-quiet">View pack(s) →</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+  <h2>How Micro-Scenarios helps</h2>
+  <div class="benefit-grid">
+    <div class="benefit-card">
+      <h3>Realistic situations</h3>
+      <p>Each scenario is written to feel like something you might actually face this week, not a textbook example.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Guided reflection</h3>
+      <p>See the likely outcome of each choice and the reasoning behind it, so you learn the pattern—not just the “right answer”.</p>
+    </div>
+    <div class="benefit-card">
+      <h3>Small, daily reps</h3>
+      <p>Just one or two scenarios per day can gradually change how you show up in real conversations.</p>
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+  <h2>From the blog</h2>
+  <div class="blog-preview-grid">
+    {% for p in posts %}
+      <article class="blog-preview-card">
+        <h3>{{ p.title }}</h3>
+        <p class="blog-date">{{ p.published_at }}</p>
+        <p class="blog-summary">{{ p.summary }}</p>
+        <a href="{{ url_for('blog_post', slug=p.slug) }}" class="link-quiet">Read article →</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

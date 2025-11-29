@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "core-difficult-conversations",
+    "name": "Core Difficult Conversations Pack",
+    "category_slug": "difficult-conversations",
+    "level": "Starter",
+    "scenarios_file": "core_difficult_conversations.json",
+    "summary": "10 essential scenarios for tough but common conversations at work and at home."
+  },
+  {
+    "slug": "dating-first-messages",
+    "name": "Dating: First Messages & Replies",
+    "category_slug": "dating-confidence",
+    "level": "Starter",
+    "scenarios_file": "dating_first_messages.json",
+    "summary": "Practice opening lines, late replies, and messages that keep conversations alive."
+  },
+  {
+    "slug": "dating-first-dates",
+    "name": "Dating: First Dates & Boundaries",
+    "category_slug": "dating-confidence",
+    "level": "Intermediate",
+    "scenarios_file": "dating_first_dates.json",
+    "summary": "Navigate first dates, expectations, and boundaries with more ease."
+  },
+  {
+    "slug": "workplace-assertiveness-basics",
+    "name": "Workplace Assertiveness Basics",
+    "category_slug": "workplace-assertiveness",
+    "level": "Starter",
+    "scenarios_file": "workplace_assertiveness_basics.json",
+    "summary": "Speak up respectfully, ask for what you need, and handle feedback with confidence."
+  },
+  {
+    "slug": "customer-service-fire-drills",
+    "name": "Customer Service Fire Drills",
+    "category_slug": "customer-service",
+    "level": "Starter",
+    "scenarios_file": "customer_service_fire_drills.json",
+    "summary": "Train for tricky customer moments before they happen in real life."
+  }
+]

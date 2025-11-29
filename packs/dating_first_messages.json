@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Opening Line Freeze",
+    "category": "Dating / Messaging",
+    "situation": "You matched with someone whose profile you really like, but your mind goes blank when you try to write the first message.",
+    "question": "How do you start the conversation?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "“Hey, how are you?”",
+        "outcome": "They might respond, but it doesn’t help the conversation stand out or go anywhere specific.",
+        "insight": "Generic openers are safe but forgettable. They put all the work back onto the other person."
+      },
+      {
+        "id": "B",
+        "label": "“Your photo at the coast looks amazing. Is that your favorite place you’ve traveled to?”",
+        "outcome": "They feel seen and have an easy, enjoyable thing to talk about. The conversation starts with energy.",
+        "insight": "Pointing at a specific detail shows you’re genuinely paying attention and makes responding simple."
+      },
+      {
+        "id": "C",
+        "label": "“I’m terrible at opening lines but I’d regret not saying hi, so… hi 😅”",
+        "outcome": "Some people find this charming and relatable; others may not know how to respond.",
+        "insight": "Vulnerable honesty can be attractive, but it still helps to include something they can build on."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Dry Reply",
+    "category": "Dating / Messaging",
+    "situation": "You send a thoughtful message and get a one-word reply: “lol” or “nice”.",
+    "question": "What do you do next?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Reply with an equally short message to show you’re not trying too hard.",
+        "outcome": "The conversation slowly fades out. Neither of you gives it enough energy to grow.",
+        "insight": "Mirroring low effort can protect your pride but often kills potentially good connections."
+      },
+      {
+        "id": "B",
+        "label": "Send another open question connected to what you were talking about.",
+        "outcome": "Sometimes they open up more the second time; other times the energy stays flat and you learn they’re not that interested.",
+        "insight": "You can’t control their level of interest, but you can give the conversation one more clear chance before moving on."
+      },
+      {
+        "id": "C",
+        "label": "Confront them: “If you’re not interested, just say so instead of half-replying.”",
+        "outcome": "They may withdraw or get defensive. The conversation ends with tension instead of clarity.",
+        "insight": "Calling someone out harshly for low effort can feel justified but often shuts the door on any future warmth."
+      }
+    ]
+  }
+]

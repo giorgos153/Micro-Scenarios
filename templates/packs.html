@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>All Packs</h1>
+  <p class="hero-subtitle">
+    Browse all available scenario packs. You can dip into any pack that matches where you want to grow right now.
+  </p>
+</section>
+
+<section class="pack-list">
+  <ul>
+    {% for p in packs %}
+      <li class="pack-card">
+        <div class="pack-meta">
+          <p class="pack-level">{{ p.level }}</p>
+          <h3>{{ p.name }}</h3>
+          <p>{{ p.summary }}</p>
+          <p class="pack-category-label">
+            In category:
+            {% for c in categories %}
+              {% if c.slug == p.category_slug %}
+                {{ c.name }}
+              {% endif %}
+            {% endfor %}
+          </p>
+        </div>
+        <a href="{{ url_for('pack_detail', slug=p.slug) }}" class="btn-secondary">View pack</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

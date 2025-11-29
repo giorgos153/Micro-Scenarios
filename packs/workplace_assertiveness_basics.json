@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Extra Work on Your Plate",
+    "category": "Workplace / Assertiveness",
+    "situation": "Your manager keeps asking you to ‘quickly’ help with tasks that are not part of your role. Your own work is starting to slip.",
+    "question": "How do you respond to the next request?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Say yes again and plan to work late to catch up.",
+        "outcome": "Your manager sees you as reliable, but your stress and workload become unsustainable.",
+        "insight": "Always saying yes can make you look helpful but also silently trains people to overload you."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I can help, but I’ll need to drop something else. Which of my current tasks is less of a priority?”",
+        "outcome": "Your manager has to consider your workload. Sometimes they reassign the extra task or adjust expectations.",
+        "insight": "Assertiveness doesn’t always mean saying no; it can mean making trade-offs visible."
+      },
+      {
+        "id": "C",
+        "label": "Avoid your manager and hope they ask someone else instead.",
+        "outcome": "The pattern might pause, but you miss opportunities to shape how your role is defined.",
+        "insight": "Avoidance can protect you for a moment but usually leaves the underlying dynamic unchanged."
+      }
+    ]
+  }
+]

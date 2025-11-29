@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Categories</h1>
+  <p class="hero-subtitle">
+    Explore scenario collections grouped by the kind of conversations you want to feel more prepared for.
+  </p>
+</section>
+
+<section class="category-grid">
+  {% for c in categories %}
+    <article class="category-card">
+      <h2>{{ c.name }}</h2>
+      <p>{{ c.description }}</p>
+      <a href="{{ url_for('category_detail', slug=c.slug) }}" class="btn-secondary">View category</a>
+    </article>
+  {% endfor %}
+</section>
+{% endblock %}

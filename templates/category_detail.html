@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>{{ category.name }}</h1>
+  <p class="hero-subtitle">
+    {{ category.description }}
+  </p>
+</section>
+
+<section class="pack-list">
+  <h2>Packs in this category</h2>
+  <ul>
+    {% for p in packs %}
+      <li class="pack-card">
+        <div class="pack-meta">
+          <p class="pack-level">{{ p.level }}</p>
+          <h3>{{ p.name }}</h3>
+          <p>{{ p.summary }}</p>
+        </div>
+        <a href="{{ url_for('pack_detail', slug=p.slug) }}" class="btn-secondary">View pack</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

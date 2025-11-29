@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Who Suggests the First Date?",
+    "category": "Dating / Planning",
+    "situation": "You’ve been chatting for a few days. The vibe is good, but no one has mentioned meeting up yet.",
+    "question": "How do you move things forward?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Wait for them to bring it up so you don’t seem too eager.",
+        "outcome": "Sometimes they eventually ask; other times the connection stalls and quietly fades.",
+        "insight": "Waiting can feel safe, but it also means giving up control over whether anything ever happens."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I’ve really enjoyed chatting — want to grab a coffee sometime this week?”",
+        "outcome": "You learn quickly whether they’re open to meeting. Even a no gives you useful clarity.",
+        "insight": "Clear, low-pressure invitations are often read as confidence, not desperation."
+      },
+      {
+        "id": "C",
+        "label": "Hint indirectly with “We should hang sometime lol” and hope they pick it up.",
+        "outcome": "Some people don’t catch the hint or feel unsure how serious you are.",
+        "insight": "Indirect suggestions feel safer but are easier to ignore or misinterpret."
+      }
+    ]
+  }
+]

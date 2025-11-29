@@ -7,16 +7,21 @@
   <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
 </head>
 <body>
-    <header class="site-header">
+  <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <a href="{{ url_for('index') }}" class="logo">Micro-Scenarios</a>
-        <div class="tagline">60-second practice for real-life conversations</div>
+        <a href="{{ url_for('home') }}" class="logo">Micro-Scenarios</a>
+        <div class="tagline">Professional practice for real-world conversations</div>
       </div>
       <nav class="nav-main">
-        <a href="{{ url_for('index') }}" class="nav-link">Scenarios</a>
-        <a href="{{ url_for('store') }}" class="nav-link">Store</a>
-      <a href="{{ url_for('about') }}" class="nav-link">About</a><a href="{{ url_for('contact') }}" class="nav-link">Contact</a><a href="{{ url_for('faq') }}" class="nav-link">FAQ</a></nav>
+        <a href="{{ url_for('home') }}" class="nav-link{% if request.endpoint == 'home' %} nav-link-active{% endif %}">Home</a>
+        <a href="{{ url_for('practice') }}" class="nav-link{% if request.endpoint == 'practice' %} nav-link-active{% endif %}">Practice</a>
+        <a href="{{ url_for('categories_view') }}" class="nav-link{% if request.endpoint in ['categories_view', 'category_detail'] %} nav-link-active{% endif %}">Categories</a>
+        <a href="{{ url_for('packs_view') }}" class="nav-link{% if request.endpoint in ['packs_view', 'pack_detail'] %} nav-link-active{% endif %}">Packs</a>
+        <a href="{{ url_for('blog_index') }}" class="nav-link{% if request.endpoint in ['blog_index', 'blog_post'] %} nav-link-active{% endif %}">Blog</a>
+        <a href="{{ url_for('about') }}" class="nav-link{% if request.endpoint == 'about' %} nav-link-active{% endif %}">About</a>
+        <a href="{{ url_for('contact') }}" class="nav-link{% if request.endpoint == 'contact' %} nav-link-active{% endif %}">Contact</a>
+      </nav>
     </div>
   </header>
 
@@ -26,9 +31,9 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; {{ 2025 }} Micro-Scenarios Pack – Difficult Conversations. All rights reserved.</p>
+      <p>&copy; {{ 2025 }} Micro-Scenarios. All rights reserved.</p>
       <p class="small">
-        License: Personal use only. Not for redistribution without written permission from the creator.
+        Micro-Scenarios is a practice tool, not therapy or legal advice. For serious issues, consider speaking with a qualified professional.
       </p>
     </div>
   </footer>

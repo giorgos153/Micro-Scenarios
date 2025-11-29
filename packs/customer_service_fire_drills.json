@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "The Angry Email",
+    "category": "Customer Service",
+    "situation": "A customer sends an all-caps email calling your team ‘incompetent’ because their order arrived late.",
+    "question": "How do you reply?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Respond with a defensive explanation of why it wasn’t really your fault.",
+        "outcome": "They may feel you care more about the explanation than about their experience.",
+        "insight": "Explanations are sometimes necessary, but leading with them can make people feel unseen."
+      },
+      {
+        "id": "B",
+        "label": "Acknowledge their frustration, apologize for the inconvenience, and offer a concrete next step (like tracking details or a small credit).",
+        "outcome": "The tone often softens. Even if they stay annoyed, they now see you as someone trying to help.",
+        "insight": "Validation plus a clear action plan is usually more calming than a perfect excuse."
+      },
+      {
+        "id": "C",
+        "label": "Ignore the email for a day in hopes they cool down.",
+        "outcome": "Their frustration grows. They might escalate publicly or to a supervisor.",
+        "insight": "Silence gives people space to amplify their own stories — usually not in your favor."
+      }
+    ]
+  }
+]

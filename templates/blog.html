@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Blog</h1>
+  <p class="hero-subtitle">
+    Short, practical articles on communication, emotional skills, and designing better conversations.
+  </p>
+</section>
+
+<section class="blog-list">
+  {% for p in posts %}
+    <article class="blog-preview-card">
+      <h2>{{ p.title }}</h2>
+      <p class="blog-date">{{ p.published_at }}</p>
+      <p class="blog-summary">{{ p.summary }}</p>
+      <a href="{{ url_for('blog_post', slug=p.slug) }}" class="link-quiet">Read article →</a>
+    </article>
+  {% endfor %}
+</section>
+{% endblock %}

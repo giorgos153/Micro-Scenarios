@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>{{ pack.name }}</h1>
+  <p class="hero-subtitle">
+    {% if category %}Part of: {{ category.name }} · {% endif %}Level: {{ pack.level }}
+  </p>
+</section>
+
+<section class="scenario-list">
+  <h2>Scenarios in this pack</h2>
+  <ul>
+    {% for s in scenarios %}
+      <li class="scenario-card">
+        <div class="scenario-meta">
+          <span class="scenario-category">{{ s.category }}</span>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.situation }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

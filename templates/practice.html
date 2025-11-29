@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Core Difficult Conversations Practice</h1>
+  <p class="hero-subtitle">
+    Start with this core set of scenarios covering work, relationships, and everyday situations where the words are hard to find.
+  </p>
+</section>
+
+<section class="scenario-list">
+  <h2>Scenarios in this set ({{ total }})</h2>
+  <ul>
+    {% for s in scenarios %}
+      <li class="scenario-card">
+        <div class="scenario-meta">
+          <span class="scenario-category">{{ s.category }}</span>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.situation }}</p>
+        </div>
+        <a href="{{ url_for('scenario_view', scenario_id=s.id) }}" class="btn-secondary">
+          Practice this scenario
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

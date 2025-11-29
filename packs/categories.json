@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "difficult-conversations",
+    "name": "Difficult Conversations",
+    "description": "Work, relationships, and everyday situations where the stakes feel high and the words are hard to find."
+  },
+  {
+    "slug": "dating-confidence",
+    "name": "Dating & Social Confidence",
+    "description": "Messages, first dates, and vulnerable moments where you want to feel more relaxed and authentic."
+  },
+  {
+    "slug": "workplace-assertiveness",
+    "name": "Workplace Assertiveness",
+    "description": "Speaking up, setting boundaries, and navigating power dynamics with colleagues and managers."
+  },
+  {
+    "slug": "customer-service",
+    "name": "Customer Service & Clients",
+    "description": "Handling difficult clients, managing expectations, and staying calm under pressure."
+  }
+]
