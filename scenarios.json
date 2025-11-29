@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Someone Interrupts You in a Meeting",
+    "category": "Work / Communication",
+    "situation": "You are explaining a point in a team meeting when a colleague cuts you off and starts talking over you.",
+    "question": "How do you respond in the moment?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Let them finish, stay silent, and never return to your point.",
+        "outcome": "The meeting moves on without your idea being fully heard. You feel overlooked and slightly resentful.",
+        "insight": "Avoiding conflict can keep the peace short term, but it reinforces a pattern where your contributions are easy to ignore."
+      },
+      {
+        "id": "B",
+        "label": "Politely but firmly say, “I’d like to finish my thought, then I’m happy to hear your view.”",
+        "outcome": "The room pauses, your colleague pulls back, and you finish your point. You feel a bit nervous but also proud of yourself.",
+        "insight": "Calm boundary-setting signals that your voice matters without attacking the other person."
+      },
+      {
+        "id": "C",
+        "label": "Raise your voice and say, “Stop interrupting me, you always do this!”",
+        "outcome": "The room goes awkwardly quiet. Your colleague becomes defensive and the conversation derails into tension, not ideas.",
+        "insight": "Calling out a pattern in the heat of the moment often triggers defensiveness instead of change. Specific, calm requests work better."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "A Friend Cancels Last Minute",
+    "category": "Friendship / Boundaries",
+    "situation": "A close friend cancels a plan 10 minutes before you are supposed to meet. This happens often.",
+    "question": "What do you do?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Reply, “No worries!” even though you’re upset, and say nothing about the pattern.",
+        "outcome": "You spare them discomfort, but you stay frustrated and feel less excited to see them next time.",
+        "insight": "Protecting someone from your true feelings can slowly damage the relationship because resentment builds silently."
+      },
+      {
+        "id": "B",
+        "label": "Message, “I feel disappointed. This has happened a few times and it makes it hard for me to rely on our plans.”",
+        "outcome": "Your friend is surprised but appreciative of your honesty. They apologize and suggest talking about how to make plans that work better.",
+        "insight": "Naming how a pattern affects you focuses on impact, not blame, and opens the door to renegotiating the relationship."
+      },
+      {
+        "id": "C",
+        "label": "Ignore their message for days to ‘teach them a lesson.’",
+        "outcome": "They feel confused and anxious. The distance between you grows, but the real issue stays unspoken.",
+        "insight": "Withdrawing as punishment creates uncertainty, not understanding. Clarity usually works better than silent tests."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Your Boss Gives Vague Criticism",
+    "category": "Work / Feedback",
+    "situation": "Your boss says, “Your last report just wasn’t strong enough,” but doesn’t give any specifics.",
+    "question": "How do you respond?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Nod and say, “Okay, I’ll do better,” without asking for details.",
+        "outcome": "You leave the conversation unsure what to change. The next report might repeat the same mistakes.",
+        "insight": "Accepting vague criticism without clarity makes improvement a guessing game instead of a process."
+      },
+      {
+        "id": "B",
+        "label": "Say, “Could you share one or two specific things I can improve next time?”",
+        "outcome": "Your boss points out structure and clarity issues. You take notes and know exactly what to do differently next time.",
+        "insight": "Asking for concrete examples turns criticism into actionable guidance and shows you’re committed to growing."
+      },
+      {
+        "id": "C",
+        "label": "Defend your work by listing everything you did well and why the feedback is unfair.",
+        "outcome": "Your boss becomes less open and wraps up quickly. The relationship feels slightly strained.",
+        "insight": "Getting defensive can protect your ego short term but often closes the door on useful information."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "A Partner Raises Their Voice",
+    "category": "Relationships / Conflict",
+    "situation": "During an argument about finances, your partner starts speaking loudly and sharply. You feel tense and flooded.",
+    "question": "What do you do in that moment?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Match their volume and intensity so you won’t be ‘walked over.’",
+        "outcome": "The argument quickly escalates. Both of you say things you regret.",
+        "insight": "Matching intensity can feel powerful but often pushes the conflict to a point where repair becomes harder."
+      },
+      {
+        "id": "B",
+        "label": "Say calmly, “I want to talk about this, but the volume is making it hard for me to think. Can we lower our voices or take a short break?”",
+        "outcome": "Your partner pauses. They may not fully calm down immediately, but the tone softens and there’s more space to think.",
+        "insight": "Naming your need without attacking the other person can shift the emotional temperature of a conversation."
+      },
+      {
+        "id": "C",
+        "label": "Shut down, stop talking, and mentally leave the conversation.",
+        "outcome": "The conflict appears to end, but the issue stays unresolved, and your partner feels shut out.",
+        "insight": "Checking out may protect you emotionally in the moment, but it keeps the problem alive beneath the surface."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "A Team Member Misses a Deadline",
+    "category": "Work / Collaboration",
+    "situation": "A colleague repeatedly turns in their part of a shared project late, making you rush your own work.",
+    "question": "How do you bring it up?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Do their part quietly yourself so the project doesn’t suffer.",
+        "outcome": "The project looks fine, but your workload is unsustainable, and the pattern continues.",
+        "insight": "Taking on extra work can save a project in the short term but often teaches others that deadlines don’t matter."
+      },
+      {
+        "id": "B",
+        "label": "Say, “When your part arrives late, I end up rushing. Can we agree on a specific time that works for you so I can plan my work realistically?”",
+        "outcome": "Your colleague understands the impact on you and proposes a more realistic interim deadline.",
+        "insight": "Describing consequences and inviting collaboration helps shift behavior without attacking character."
+      },
+      {
+        "id": "C",
+        "label": "Complain about them to the manager without speaking to them first.",
+        "outcome": "Your colleague feels blindsided when the manager brings it up, and trust between you drops.",
+        "insight": "Going around someone can resolve the issue temporarily but often damages direct working relationships."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "You Receive an Overly Personal Joke",
+    "category": "Social / Boundaries",
+    "situation": "In a group, someone makes a joke about your appearance that feels too personal. Others laugh.",
+    "question": "What do you do?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Fake laugh along so you don’t look sensitive.",
+        "outcome": "The moment passes, but you feel smaller and less safe around that person.",
+        "insight": "Laughing off discomfort can train others to cross your lines without realizing it."
+      },
+      {
+        "id": "B",
+        "label": "Smile slightly and say, “Hey, not cool. Jokes about my appearance are off-limits.”",
+        "outcome": "The group quiets for a moment. The person looks a bit embarrassed but backs off.",
+        "insight": "Short, clear boundary statements can reset what’s acceptable without turning it into a lecture."
+      },
+      {
+        "id": "C",
+        "label": "Snap back with an even harsher joke about them.",
+        "outcome": "The group laughs again, but the atmosphere shifts from playful to edgy. The other person may start seeing you as an adversary.",
+        "insight": "Meeting hurtful humor with more hurt can feel satisfying but often escalates tension instead of correcting it."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "A Client Keeps Expanding the Scope",
+    "category": "Work / Client Management",
+    "situation": "A freelance client keeps asking for small ‘quick' additions that weren’t in the original agreement.",
+    "question": "How do you respond to the latest request?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Say yes again because you don’t want to seem difficult.",
+        "outcome": "The project grows bigger while your fee stays the same, and you feel increasingly undervalued.",
+        "insight": "Saying yes to every extra request trains clients to expect free work by default."
+      },
+      {
+        "id": "B",
+        "label": "Reply, “That’s beyond our agreed scope. I can absolutely add it for an additional X, or we can save it for a future phase.”",
+        "outcome": "The client may hesitate but respects the clarity. Some will accept the fee; others will prioritize.",
+        "insight": "Naming scope and offering options respects both your boundaries and the client’s goals."
+      },
+      {
+        "id": "C",
+        "label": "Ignore the request and hope they forget about it.",
+        "outcome": "The client follows up, now slightly irritated. Trust in your reliability decreases.",
+        "insight": "Avoidance rarely makes business issues disappear; it usually just delays an uncomfortable conversation."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "You Want a Quiet Night, They Want to Go Out",
+    "category": "Relationships / Preferences",
+    "situation": "You’ve had a long day and want a quiet night in. Your partner is excited to go out and socialize.",
+    "question": "How do you handle the mismatch?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Force yourself to go out so they won’t be disappointed.",
+        "outcome": "You feel drained and a bit irritable all evening, which affects how much you both enjoy the night.",
+        "insight": "Consistently overriding your own needs can lead to burnout and hidden resentment."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I really need a quiet night. Could we do something low-key, or would you like to go out with friends while I recharge?”",
+        "outcome": "You find a compromise: a short outing or separate plans. Both needs are acknowledged.",
+        "insight": "Treating both people’s needs as valid makes it easier to negotiate instead of ‘win’ a situation."
+      },
+      {
+        "id": "C",
+        "label": "Say, “You’re so selfish, you never think about how tired I am,” and shut the conversation down.",
+        "outcome": "Your partner feels attacked, not understood. The conversation becomes about character, not plans.",
+        "insight": "Global labels (“you always…”) often lead to defensiveness, not cooperation."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "You Need Help But Don’t Want to Bother Anyone",
+    "category": "Work / Support",
+    "situation": "You are stuck on a task and behind on time but worry you’ll look incompetent if you ask for help.",
+    "question": "What do you do?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Keep struggling alone, even though you’re making little progress.",
+        "outcome": "The deadline gets closer and your stress increases. The final result may suffer.",
+        "insight": "Protecting your image can sometimes cost you the support that would actually improve your performance."
+      },
+      {
+        "id": "B",
+        "label": "Ask a colleague, “Do you have 10 minutes? I’m stuck on this part and a second pair of eyes would help.”",
+        "outcome": "They clarify the sticking point quickly. You feel relieved and finish more confidently.",
+        "insight": "Specific, time-bound requests are easier for others to say yes to and show that you respect their time."
+      },
+      {
+        "id": "C",
+        "label": "Complain loudly about how hard everything is so someone will eventually offer help.",
+        "outcome": "People may step in, but some see you as negative or dramatic rather than collaborative.",
+        "insight": "Indirect bids for help can work but often blur the line between venting and problem-solving."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "You Disagree With a Friend’s Opinion Online",
+    "category": "Social / Digital Communication",
+    "situation": "A friend posts an opinion you strongly disagree with on social media. You feel tempted to argue in the comments.",
+    "question": "How do you respond?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Write a long public comment picking apart their argument point by point.",
+        "outcome": "The conversation quickly becomes performative and tense. You both feel less close afterward.",
+        "insight": "Public debates with friends often prioritize being right over staying connected."
+      },
+      {
+        "id": "B",
+        "label": "Send a private message: “I see this differently and would love to understand your view better if you’re open to it.”",
+        "outcome": "You have a slower, more thoughtful exchange in private. You may still disagree, but you both feel heard.",
+        "insight": "Moving sensitive conversations out of the spotlight makes it easier to stay curious instead of combative."
+      },
+      {
+        "id": "C",
+        "label": "Silently mute them and never mention it.",
+        "outcome": "Your feed becomes calmer, but they have no idea why you pulled away, and the distance grows invisibly.",
+        "insight": "Sometimes protecting your space is healthy, but avoiding all hard conversations can slowly hollow out relationships."
+      }
+    ]
+  }
+]

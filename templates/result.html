@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="scenario-result">
+  <header>
+    <p class="scenario-category">{{ scenario.category }}</p>
+    <h1>{{ scenario.title }}</h1>
+  </header>
+
+  <section class="result-choice">
+    <h2>Your choice: <span class="pill">{{ choice.id }}</span></h2>
+    <p class="choice-label">{{ choice.label }}</p>
+  </section>
+
+  <section class="result-outcome">
+    <h3>Likely outcome</h3>
+    <p>{{ choice.outcome }}</p>
+  </section>
+
+  <section class="result-insight">
+    <h3>Coaching insight</h3>
+    <p>{{ choice.insight }}</p>
+  </section>
+
+  <div class="nav-row">
+    <a href="{{ url_for('scenario_view', scenario_id=scenario.id) }}" class="btn-secondary">Try this scenario again</a>
+
+    {% set next_id = scenario.id + 1 %}
+    {% if next_id <= 10 %}
+      <a href="{{ url_for('scenario_view', scenario_id=next_id) }}" class="btn-primary">
+        Next scenario →
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="nav-row">
+    <a href="{{ url_for('index') }}" class="link-quiet">Back to all scenarios</a>
+  </div>
+</article>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>Difficult Conversations – Everyday Life</h1>
+  <p class="hero-subtitle">
+    Practice handling tricky moments in work, relationships, and everyday life through quick,
+    interactive scenarios. Each one takes about a minute.
+  </p>
+  <a href="{{ url_for('scenario_view', scenario_id=1) }}" class="btn-primary">
+    Start the first scenario
+  </a>
+</section>
+
+<section class="scenario-list">
+  <h2>Scenarios in this pack ({{ total }})</h2>
+  <ul>
+    {% for s in scenarios %}
+      <li class="scenario-card">
+        <div class="scenario-meta">
+          <span class="scenario-category">{{ s.category }}</span>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.situation }}</p>
+        </div>
+        <a href="{{ url_for('scenario_view', scenario_id=s.id) }}" class="btn-secondary">
+          Practice this scenario
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

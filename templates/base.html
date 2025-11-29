@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title or "Micro-Scenarios" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="{{ url_for('index') }}" class="logo">Micro-Scenarios</a>
+      <div class="tagline">60-second practice for real-life conversations</div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; {{ 2025 }} Micro-Scenarios Pack – Difficult Conversations. All rights reserved.</p>
+      <p class="small">
+        License: Personal use only. Not for redistribution without written permission from the creator.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
