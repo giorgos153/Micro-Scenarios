@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Phone During Dinner",
+    "category": "Partner / Communication",
+    "situation": "Your partner often scrolls their phone during dinner. You feel ignored but haven’t said anything clearly.",
+    "question": "How do you bring it up?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Make sarcastic comments about their phone every time they pick it up.",
+        "outcome": "The conversation becomes about your sarcasm instead of your need for connection.",
+        "insight": "Sarcasm hides the vulnerable part of the message, which is usually the part that actually needs to be heard."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I miss you when we’re both on our phones at dinner. Could we try a no-phone rule for this one meal?”",
+        "outcome": "You name your experience and propose a specific experiment instead of a vague complaint.",
+        "insight": "Framing a change as a shared experiment feels lighter and more collaborative."
+      },
+      {
+        "id": "C",
+        "label": "Say nothing but secretly decide this means they don’t care about you like they used to.",
+        "outcome": "Your story about their behavior grows, but they don’t know anything is wrong.",
+        "insight": "Mind-reading is tempting, but it usually builds distance on top of misunderstandings."
+      }
+    ]
+  }
+]

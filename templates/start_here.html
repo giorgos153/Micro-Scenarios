@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <h1>Start Here</h1>
+  <p class="hero-subtitle">
+    A simple path if you’re new: warm up with a few core scenarios, then choose one focus area for the next week.
+  </p>
+</section>
+
+<section class="start-section">
+  <h2>Step 1 · Warm up</h2>
+  <p class="start-text">
+    Begin with a small set of core difficult conversations. Pick one scenario per day and move through it slowly.
+  </p>
+  <div class="start-grid">
+    {% for s in scenarios %}
+      <article class="start-card">
+        <span class="badge badge-level">Core</span>
+        <h3>{{ s.title }}</h3>
+        <p class="start-situation">{{ s.situation }}</p>
+        <a href="{{ url_for('scenario_view', scenario_id=s.id) }}" class="btn-secondary">Practice</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="start-section">
+  <h2>Step 2 · Pick a focus area</h2>
+  <p class="start-text">
+    Choose one area that feels most alive for you right now. Stick with it for 5–7 days instead of jumping around.
+  </p>
+
+  <div class="start-focus-grid">
+    {% for cat in categories %}
+      {% if cat.slug in focus_grouped %}
+        {% set packs = focus_grouped[cat.slug] %}
+        <article class="start-focus-card">
+          <h3>{{ cat.name }}</h3>
+          <p class="start-situation">{{ cat.description }}</p>
+          <ul class="pack-mini-list">
+            {% for p in packs %}
+              <li>
+                <span class="badge badge-level">{{ p.level }}</span>
+                {% if p.tag %}
+                  <span class="badge badge-tag">{{ p.tag }}</span>
+                {% endif %}
+                <span class="pack-mini-title">{{ p.name }}</span>
+                <a href="{{ url_for('pack_detail', slug=p.slug) }}" class="link-quiet">View pack →</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="start-section">
+  <h2>Step 3 · Keep it tiny</h2>
+  <p class="start-text">
+    Set a 5-minute timer. Do one scenario. Notice what you would usually do and what else is possible. That’s it.
+    It’s better to practice a little, often, than a lot, once.
+  </p>
+</section>
+{% endblock %}

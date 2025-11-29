@@ -5,7 +5,7 @@
     "category_slug": "difficult-conversations",
     "level": "Starter",
     "scenarios_file": "core_difficult_conversations.json",
-    "summary": "10 essential scenarios for tough but common conversations at work and at home."
+    "summary": "10 essential scenarios for tough but common conversations at work, in relationships, and with friends."
   },
   {
     "slug": "dating-first-messages",
@@ -13,7 +13,7 @@
     "category_slug": "dating-confidence",
     "level": "Starter",
     "scenarios_file": "dating_first_messages.json",
-    "summary": "Practice opening lines, late replies, and messages that keep conversations alive."
+    "summary": "Practice opening lines, keeping the energy alive, and handling awkward replies over text."
   },
   {
     "slug": "dating-first-dates",
@@ -21,7 +21,7 @@
     "category_slug": "dating-confidence",
     "level": "Intermediate",
     "scenarios_file": "dating_first_dates.json",
-    "summary": "Navigate first dates, expectations, and boundaries with more ease."
+    "summary": "Design first dates that feel safe and relaxed, from invitations to goodbyes."
   },
   {
     "slug": "workplace-assertiveness-basics",
@@ -29,7 +29,7 @@
     "category_slug": "workplace-assertiveness",
     "level": "Starter",
     "scenarios_file": "workplace_assertiveness_basics.json",
-    "summary": "Speak up respectfully, ask for what you need, and handle feedback with confidence."
+    "summary": "Speak up respectfully, push back on unrealistic expectations, and protect your time."
   },
   {
     "slug": "customer-service-fire-drills",
@@ -37,6 +37,78 @@
     "category_slug": "customer-service",
     "level": "Starter",
     "scenarios_file": "customer_service_fire_drills.json",
-    "summary": "Train for tricky customer moments before they happen in real life."
+    "summary": "Train for angry emails, boundary-pushing customers, and high-pressure service moments."
+  },
+  {
+    "slug": "family-boundaries-basics",
+    "name": "Family Boundaries Basics",
+    "category_slug": "family-relationships",
+    "level": "Beginner",
+    "tag": "Popular",
+    "scenarios_file": "family_boundaries_basics.json",
+    "summary": "Practice saying no, asking for space, and talking about needs without turning every conversation into a fight."
+  },
+  {
+    "slug": "partner-tough-talks",
+    "name": "Partner Tough Talks",
+    "category_slug": "family-relationships",
+    "level": "Intermediate",
+    "tag": "",
+    "scenarios_file": "partner_tough_talks.json",
+    "summary": "Moments with partners where you need to talk about patterns, not just one bad night."
+  },
+  {
+    "slug": "conflict-repair-checkins",
+    "name": "Conflict Repair Check-ins",
+    "category_slug": "conflict-repair",
+    "level": "Beginner",
+    "tag": "",
+    "scenarios_file": "conflict_repair_checkins.json",
+    "summary": "Short conversations to re-open connection after tension, conflict, or distance."
+  },
+  {
+    "slug": "conflict-apologies-deep",
+    "name": "Deep Apologies & Repair",
+    "category_slug": "conflict-repair",
+    "level": "Intermediate",
+    "tag": "Featured",
+    "scenarios_file": "conflict_apologies_deep.json",
+    "summary": "When you really did mess up and want to apologize in a way that respects both of you."
+  },
+  {
+    "slug": "leadership-1-1s",
+    "name": "Leadership 1:1 Conversations",
+    "category_slug": "leadership-conversations",
+    "level": "Beginner",
+    "tag": "",
+    "scenarios_file": "leadership_1_1s.json",
+    "summary": "Guide regular 1:1s so they’re useful for both you and your direct reports."
+  },
+  {
+    "slug": "leadership-difficult-feedback",
+    "name": "Leadership: Difficult Feedback",
+    "category_slug": "leadership-conversations",
+    "level": "Intermediate",
+    "tag": "Popular",
+    "scenarios_file": "leadership_difficult_feedback.json",
+    "summary": "Deliver clear feedback without humiliating people or watering down the message."
+  },
+  {
+    "slug": "social-anxiety-light",
+    "name": "Social Anxiety: Everyday Moments",
+    "category_slug": "social-anxiety",
+    "level": "Beginner",
+    "tag": "",
+    "scenarios_file": "social_anxiety_light.json",
+    "summary": "Practice small, everyday social moves: joining conversations, asking questions, and staying present."
+  },
+  {
+    "slug": "social-anxiety-groups",
+    "name": "Social Anxiety: Groups & Spotlight",
+    "category_slug": "social-anxiety",
+    "level": "Intermediate",
+    "tag": "New",
+    "scenarios_file": "social_anxiety_groups.json",
+    "summary": "Handle meetings, group hangs, and moments where all eyes feel like they’re on you."
   }
 ]

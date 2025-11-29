@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "After a Heated Argument",
+    "category": "Conflict / Repair",
+    "situation": "You and someone you care about had a heated argument last week. Things are polite now but still tense.",
+    "question": "How do you reopen the conversation to repair?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Pretend nothing happened and hope time will fix it.",
+        "outcome": "The tension fades on the surface, but some part of the relationship stays guarded.",
+        "insight": "Time can lower the volume of conflict, but repair usually needs some explicit acknowledgement."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I’ve been thinking about our argument and I don’t want that to be the last big thing between us. Could we talk about what happened when you’re ready?”",
+        "outcome": "You show care and openness without forcing them to engage immediately.",
+        "insight": "Inviting conversation instead of demanding it respects both your need for repair and their need for readiness."
+      },
+      {
+        "id": "C",
+        "label": "Send a long message listing everything they did wrong and how they should fix it.",
+        "outcome": "They may feel attacked and focus on defending themselves instead of reconnecting.",
+        "insight": "Repair is easiest when both people can own something, not just one."
+      }
+    ]
+  }
+]

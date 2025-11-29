@@ -22,7 +22,61 @@
         "id": "C",
         "label": "Ignore the email for a day in hopes they cool down.",
         "outcome": "Their frustration grows. They might escalate publicly or to a supervisor.",
-        "insight": "Silence gives people space to amplify their own stories — usually not in your favor."
+        "insight": "Silence gives people space to amplify their own stories—usually not in your favor."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Overly Friendly Customer",
+    "category": "Customer Service",
+    "situation": "A regular customer starts making personal comments and jokingly asks for your personal number.",
+    "question": "How do you keep it professional?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Give them your number so you don’t risk losing them as a customer.",
+        "outcome": "The boundary between personal and professional blurs, which can create future issues.",
+        "insight": "Over-giving access now can make future boundary-setting much harder."
+      },
+      {
+        "id": "B",
+        "label": "Smile and say, “I have to keep things on our official channels, but I’m happy to help you anytime through here.”",
+        "outcome": "You keep the relationship friendly and clear at the same time.",
+        "insight": "You can be warm and firm at once; boundaries don’t require coldness."
+      },
+      {
+        "id": "C",
+        "label": "Respond with a harsh comment about professionalism.",
+        "outcome": "They may feel embarrassed or attacked, even if their comment was inappropriate.",
+        "insight": "Directness can be paired with tone that invites people to correct themselves without shame."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Saying No to an Unreasonable Request",
+    "category": "Customer Service",
+    "situation": "A customer asks for a refund that clearly violates your policy.",
+    "question": "How do you respond?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Say no with a strict “That’s the policy” and nothing more.",
+        "outcome": "They might feel dismissed and escalate their complaint.",
+        "insight": "Policies protect the business, but people still need to feel understood."
+      },
+      {
+        "id": "B",
+        "label": "Acknowledge their situation, explain the policy briefly, and see if there’s a smaller gesture you can offer within the rules.",
+        "outcome": "They may not love the answer but are more likely to feel respected and stay with your brand.",
+        "insight": "‘No’ can still be delivered in a way that preserves relationship and trust."
+      },
+      {
+        "id": "C",
+        "label": "Bend the rules fully to avoid confrontation.",
+        "outcome": "You may train customers to push boundaries, and your team may feel unsupported.",
+        "insight": "One-time exceptions can be helpful, but if they’re constant, they quietly rewrite your policies."
       }
     ]
   }

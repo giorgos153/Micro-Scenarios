@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Unannounced Visits",
+    "category": "Family / Boundaries",
+    "situation": "A family member regularly drops by your home without calling first, expecting you to host them even when you’re busy.",
+    "question": "How do you bring this up without making it a huge fight?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Say nothing and keep accommodating them, even when it stresses you out.",
+        "outcome": "They assume it’s fine and keep doing it, while your resentment quietly builds.",
+        "insight": "Unspoken boundaries usually turn into quiet resentment instead of real change."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I love seeing you, and I also need a heads-up. Can you text before you come over so I can tell you if it’s a good time?”",
+        "outcome": "They may be surprised but now understand your preference and what to do differently.",
+        "insight": "Naming what you want clearly—and offering a simple action—gives people something concrete to respect."
+      },
+      {
+        "id": "C",
+        "label": "Explode the next time they arrive and tell them they’re rude and selfish.",
+        "outcome": "They feel attacked and may focus on your tone instead of the real issue.",
+        "insight": "Waiting until you’re furious often makes the boundary conversation about the explosion, not the need."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Unwanted Life Advice",
+    "category": "Family / Boundaries",
+    "situation": "A parent or relative criticizes your choices and offers unsolicited advice every time you share something about your life.",
+    "question": "What do you say the next time it happens?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Stop sharing anything with them so they have nothing to comment on.",
+        "outcome": "You protect yourself, but the relationship becomes shallow and distant.",
+        "insight": "Sometimes distance is needed, but if you never say why, there’s little chance of the pattern changing."
+      },
+      {
+        "id": "B",
+        "label": "Say, “When I share something, I usually just want you to listen unless I ask for advice. Could we try that?”",
+        "outcome": "They may slip up sometimes, but you’ve drawn a clear line between sharing and problem-solving.",
+        "insight": "You’re not asking them to change who they are—only how they respond in specific moments."
+      },
+      {
+        "id": "C",
+        "label": "Tell them they’re controlling and that you don’t need their opinion on anything ever again.",
+        "outcome": "They feel rejected and may become defensive or shut down.",
+        "insight": "Extreme statements can feel satisfying in the moment but leave little room for nuance or repair."
+      }
+    ]
+  }
+]

@@ -18,5 +18,25 @@
     "slug": "customer-service",
     "name": "Customer Service & Clients",
     "description": "Handling difficult clients, managing expectations, and staying calm under pressure."
+  },
+  {
+    "slug": "family-relationships",
+    "name": "Family & Relationships",
+    "description": "Conversations with parents, partners, and relatives where history and emotion run deep."
+  },
+  {
+    "slug": "conflict-repair",
+    "name": "Conflict Repair",
+    "description": "When something has already gone wrong and you want to rebuild trust instead of walking away."
+  },
+  {
+    "slug": "leadership-conversations",
+    "name": "Leadership Conversations",
+    "description": "1:1s, feedback, and tough decisions when people are looking to you for direction."
+  },
+  {
+    "slug": "social-anxiety",
+    "name": "Social Anxiety Moments",
+    "description": "Small moments that feel big: joining groups, speaking up, and being seen."
   }
 ]

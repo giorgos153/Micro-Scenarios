@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Speaking Up in a Meeting",
+    "category": "Social Anxiety / Groups",
+    "situation": "You’re in a meeting where you do have ideas, but your heart races whenever you think about speaking.",
+    "question": "How can you participate without overwhelming yourself?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Wait for the perfect moment and the perfect sentence—and say nothing if it doesn’t appear.",
+        "outcome": "The meeting ends and you feel both relieved and disappointed.",
+        "insight": "Perfection as a condition for speaking almost guarantees silence."
+      },
+      {
+        "id": "B",
+        "label": "Decide in advance that you’ll make one small contribution, even if it’s just agreeing and adding a short point.",
+        "outcome": "You build a track record of surviving the discomfort and participating anyway.",
+        "insight": "Tiny, consistent actions are better for confidence than rare, heroic ones."
+      },
+      {
+        "id": "C",
+        "label": "Apologize mid-meeting for being quiet and explain your whole history with anxiety.",
+        "outcome": "The focus shifts to you in a way that may feel even more intense.",
+        "insight": "You don’t need to fully explain yourself to be allowed to take up a bit of space."
+      }
+    ]
+  }
+]

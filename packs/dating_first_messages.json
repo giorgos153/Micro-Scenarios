@@ -20,9 +20,9 @@
       },
       {
         "id": "C",
-        "label": "“I’m terrible at opening lines but I’d regret not saying hi, so… hi 😅”",
-        "outcome": "Some people find this charming and relatable; others may not know how to respond.",
-        "insight": "Vulnerable honesty can be attractive, but it still helps to include something they can build on."
+        "label": "“Rate my opening line 1–10: ‘I can’t decide if I’m more into your smile or your dog.’”",
+        "outcome": "Some people find it playful; others may see it as trying a bit too hard, depending on their style.",
+        "insight": "Playful self-awareness can work well, but it still needs to feel respectful and not overly rehearsed."
       }
     ]
   },
@@ -50,6 +50,60 @@
         "label": "Confront them: “If you’re not interested, just say so instead of half-replying.”",
         "outcome": "They may withdraw or get defensive. The conversation ends with tension instead of clarity.",
         "insight": "Calling someone out harshly for low effort can feel justified but often shuts the door on any future warmth."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Too Many Messages",
+    "category": "Dating / Messaging",
+    "situation": "You’re excited about someone and find yourself sending multiple long messages before they have time to respond.",
+    "question": "How can you adjust?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Keep messaging whenever you think of something—you want them to know you’re interested.",
+        "outcome": "They may feel overwhelmed and struggle to keep up or disengage entirely.",
+        "insight": "Interest is attractive; intensity can be draining. Space helps the other person participate too."
+      },
+      {
+        "id": "B",
+        "label": "Pause, wait for their reply, and channel your thoughts into a journal or friend chat instead.",
+        "outcome": "You still get to express your excitement without putting pressure on the other person.",
+        "insight": "Managing your own anxiety off the app can create a calmer, more equal-feeling conversation."
+      },
+      {
+        "id": "C",
+        "label": "Apologize for the long messages and say you’ll stop texting altogether.",
+        "outcome": "They may reassure you, but the sudden withdrawal can feel confusing.",
+        "insight": "Repairing over-texting doesn’t require disappearing; it just means adjusting to a more balanced pace."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Voice Note or Text?",
+    "category": "Dating / Messaging",
+    "situation": "You’re about to respond to a deeper message about their past relationships.",
+    "question": "What format do you use?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "A short text that acknowledges what they shared and gently asks a follow-up.",
+        "outcome": "You stay present without overstepping. They feel heard and can respond at their own pace.",
+        "insight": "Text can be intimate when it’s specific, grounded, and not rushed."
+      },
+      {
+        "id": "B",
+        "label": "A long, emotional voice note sharing your entire relationship history in response.",
+        "outcome": "It may feel like too much too soon for them, and hard to reply to fully.",
+        "insight": "Matched vulnerability works best when it’s paced, not dumped all at once."
+      },
+      {
+        "id": "C",
+        "label": "Ignore the deeper part and respond only to the lighter parts of their message.",
+        "outcome": "They may feel a bit unseen or regret opening up.",
+        "insight": "Avoiding depth can keep things comfortable but also limits the potential for genuine connection."
       }
     ]
   }

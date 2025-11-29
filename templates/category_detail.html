@@ -14,7 +14,12 @@
     {% for p in packs %}
       <li class="pack-card">
         <div class="pack-meta">
-          <p class="pack-level">{{ p.level }}</p>
+          <div class="pack-badges">
+            <span class="badge badge-level">{{ p.level }}</span>
+            {% if p.tag %}
+              <span class="badge badge-tag">{{ p.tag }}</span>
+            {% endif %}
+          </div>
           <h3>{{ p.name }}</h3>
           <p>{{ p.summary }}</p>
         </div>

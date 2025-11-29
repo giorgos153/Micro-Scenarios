@@ -25,5 +25,86 @@
         "insight": "Indirect suggestions feel safer but are easier to ignore or misinterpret."
       }
     ]
+  },
+  {
+    "id": 2,
+    "title": "Choosing a First-Date Activity",
+    "category": "Dating / Planning",
+    "situation": "You’re trying to pick a first-date idea that isn’t boring but also doesn’t feel like a huge commitment.",
+    "question": "What do you suggest?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "A three-hour fancy dinner at an expensive restaurant.",
+        "outcome": "It can feel high-pressure and hard to leave gracefully if the chemistry isn’t there.",
+        "insight": "Long, high-stakes plans increase pressure instead of connection on a first meeting."
+      },
+      {
+        "id": "B",
+        "label": "“Want to grab a coffee and walk around the park near [place] this weekend?”",
+        "outcome": "It’s casual, public, and time-flexible. You can end after one drink or keep walking if it’s going well.",
+        "insight": "Time-boxed, easy-exit plans help both people relax, which is what actually supports chemistry."
+      },
+      {
+        "id": "C",
+        "label": "“Come over to my place and we’ll see what happens.”",
+        "outcome": "For many people, this feels unsafe or overly sexual for a first meeting.",
+        "insight": "Safety and comfort often matter more than originality on a first date."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Running Late",
+    "category": "Dating / First Date",
+    "situation": "You realize you’re going to be 15 minutes late to your first date because of traffic.",
+    "question": "How do you handle it?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Say nothing and hope they don’t mind waiting.",
+        "outcome": "They may feel disrespected or worry they’ve been stood up.",
+        "insight": "Silence often gets filled with anxious stories, not generous assumptions."
+      },
+      {
+        "id": "B",
+        "label": "Text as soon as you know, apologize, and give a realistic new ETA.",
+        "outcome": "They feel considered and can decide whether they’re okay waiting.",
+        "insight": "Respecting someone’s time early on sets a tone for the whole connection."
+      },
+      {
+        "id": "C",
+        "label": "Blame the traffic dramatically and complain about how awful your day is.",
+        "outcome": "The date starts with a heavy, negative tone.",
+        "insight": "Honesty about delay is helpful; emotional dumping is a different thing entirely."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "End-of-Date Goodbye",
+    "category": "Dating / First Date",
+    "situation": "The date went well. You’re standing outside the venue, and it’s time to say goodbye.",
+    "question": "What do you do?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Leave without saying anything about seeing them again, to look cool and detached.",
+        "outcome": "They may assume you’re not interested and move on, even if you actually liked them.",
+        "insight": "Playing too cool can hide genuine interest and block momentum."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I had a good time and would like to see you again if you’re up for it,” and then lean in slowly enough for them to respond.",
+        "outcome": "You’re clear and respectful, and they get a chance to match that energy or not.",
+        "insight": "Stating what you’d like while leaving space for their answer is both confident and considerate."
+      },
+      {
+        "id": "C",
+        "label": "Go in for a kiss without reading their body language or giving any verbal cue.",
+        "outcome": "If they’re not comfortable, the moment can feel abrupt or invasive.",
+        "insight": "Good first kisses are usually co-created, not taken for granted."
+      }
+    ]
   }
 ]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Hard Feedback to a High Performer",
+    "category": "Leadership / Feedback",
+    "situation": "A strong performer has started interrupting others more often in meetings. They may not see the impact.",
+    "question": "How do you give them feedback?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Say nothing because you don’t want to upset one of your best people.",
+        "outcome": "The interruptions continue, and quieter voices contribute less.",
+        "insight": "Avoiding feedback to keep short-term comfort often harms the broader team over time."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I really value your ideas, and I’ve also noticed you’re jumping in quickly in meetings. I’m worried others are holding back. Can we experiment with you pausing once before speaking?”",
+        "outcome": "They understand the behavior and its impact, and you make it clear you’re on their side.",
+        "insight": "Effective feedback ties observed behavior to impact and offers a concrete adjustment to try."
+      },
+      {
+        "id": "C",
+        "label": "Tell them, “You’re being rude in meetings,” in front of the whole team.",
+        "outcome": "They feel embarrassed and may shut down or get defensive.",
+        "insight": "Public shaming usually creates fear, not growth."
+      }
+    ]
+  }
+]

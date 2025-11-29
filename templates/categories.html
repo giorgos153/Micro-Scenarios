@@ -10,9 +10,11 @@
 
 <section class="category-grid">
   {% for c in categories %}
+    {% set pack_count = (packs | selectattr('category_slug', 'equalto', c.slug) | list | length) %}
     <article class="category-card">
       <h2>{{ c.name }}</h2>
       <p>{{ c.description }}</p>
+      <p class="category-meta">{{ pack_count }} pack{{ 's' if pack_count != 1 }} available</p>
       <a href="{{ url_for('category_detail', slug=c.slug) }}" class="btn-secondary">View category</a>
     </article>
   {% endfor %}

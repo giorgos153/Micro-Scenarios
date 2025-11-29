@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Owning a Hurtful Comment",
+    "category": "Conflict / Apology",
+    "situation": "In an argument, you said something you know was below the belt. You regret it, but things are still raw.",
+    "question": "How do you apologize?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Wait for them to calm down and act normal around you first.",
+        "outcome": "They may interpret your silence as not caring about the impact.",
+        "insight": "When you’re the one who caused harm, waiting for the other person to move first can deepen the hurt."
+      },
+      {
+        "id": "B",
+        "label": "Say, “I’m sorry I said that. It was unfair and I can see how much it hurt you. I’m working on not going there when I’m angry.”",
+        "outcome": "You name what you did, acknowledge impact, and gesture toward future change.",
+        "insight": "Good apologies describe the hurtful behavior, not just the feeling of regret."
+      },
+      {
+        "id": "C",
+        "label": "Say, “I’m sorry, but you made me angry,” and focus on what they did first.",
+        "outcome": "They may feel the apology is conditional and not really about your actions.",
+        "insight": "Adding a ‘but’ often erases everything that came before it in an apology."
+      }
+    ]
+  }
+]

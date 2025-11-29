@@ -6,6 +6,7 @@
   <p class="hero-subtitle">
     Browse all available scenario packs. You can dip into any pack that matches where you want to grow right now.
   </p>
+  <p class="hero-subtitle small">New packs are added regularly as we listen to what people struggle with most.</p>
 </section>
 
 <section class="pack-list">
@@ -13,7 +14,12 @@
     {% for p in packs %}
       <li class="pack-card">
         <div class="pack-meta">
-          <p class="pack-level">{{ p.level }}</p>
+          <div class="pack-badges">
+            <span class="badge badge-level">{{ p.level }}</span>
+            {% if p.tag %}
+              <span class="badge badge-tag">{{ p.tag }}</span>
+            {% endif %}
+          </div>
           <h3>{{ p.name }}</h3>
           <p>{{ p.summary }}</p>
           <p class="pack-category-label">

@@ -25,5 +25,59 @@
         "insight": "Avoidance can protect you for a moment but usually leaves the underlying dynamic unchanged."
       }
     ]
+  },
+  {
+    "id": 2,
+    "title": "Pushing Back on Unrealistic Deadlines",
+    "category": "Workplace / Assertiveness",
+    "situation": "A stakeholder asks you to deliver something in two days that you know will take at least a week.",
+    "question": "What do you say?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Agree to the deadline and hope you can somehow make it work.",
+        "outcome": "You’re highly stressed and might deliver rushed work that doesn’t reflect your real ability.",
+        "insight": "Taking on impossible timelines to please others often hurts quality and your reputation long-term."
+      },
+      {
+        "id": "B",
+        "label": "Say, “For the quality you’re asking for, I’d need about a week. I can share a rough draft in two days if that helps—would that work?”",
+        "outcome": "They get a clearer picture of what’s possible and can decide between speed and depth.",
+        "insight": "Offering options shows you’re collaborative, not difficult, while still protecting realistic timelines."
+      },
+      {
+        "id": "C",
+        "label": "Respond with, “That’s impossible,” and leave it at that.",
+        "outcome": "You’re honest about the problem, but they may feel shut down instead of helped.",
+        "insight": "Naming limits is important, but pairing them with alternatives keeps the relationship constructive."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Speaking Up in a Meeting",
+    "category": "Workplace / Assertiveness",
+    "situation": "You disagree with a decision being made in a meeting, but you’re not the most senior person in the room.",
+    "question": "How do you express your view?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Stay silent to avoid rocking the boat.",
+        "outcome": "The decision goes ahead unchanged. You feel frustrated and less engaged.",
+        "insight": "Staying silent protects you from discomfort but can also reduce your influence and learning."
+      },
+      {
+        "id": "B",
+        "label": "Say, “Can I offer a different angle? I’m concerned about X, and here’s why…”",
+        "outcome": "You may not change the decision, but you add value and are seen as thinking critically.",
+        "insight": "Framing disagreement as another angle invites discussion rather than conflict."
+      },
+      {
+        "id": "C",
+        "label": "Bluntly say, “This doesn’t make sense,” in front of everyone.",
+        "outcome": "People may focus more on your tone than the substance of your point.",
+        "insight": "Strong opinions carry further when they’re wrapped in respect."
+      }
+    ]
   }
 ]

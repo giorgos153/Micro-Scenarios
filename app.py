@@ -183,5 +183,24 @@ def faq():
     return render_template("faq.html")
 
 
+
+
+@app.route("/start")
+def start_here():
+    # Recommend a simple path: core practice, then a focus pack from a few key categories
+    focus_categories = ["difficult-conversations", "dating-confidence", "workplace-assertiveness", "social-anxiety"]
+    focus_packs = [p for p in PACKS_META if p.get("category_slug") in focus_categories]
+    # group packs by category
+    grouped = {}
+    for p in focus_packs:
+        grouped.setdefault(p["category_slug"], []).append(p)
+    return render_template(
+        "start_here.html",
+        scenarios=SCENARIOS[:3],
+        categories=CATEGORIES,
+        focus_grouped=grouped,
+    )
+
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Joining a Group Conversation",
+    "category": "Social Anxiety / Everyday",
+    "situation": "You walk into a gathering and see a small group already talking. You’d like to join but feel awkward.",
+    "question": "What do you do?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Hover nearby and hope someone invites you in.",
+        "outcome": "You may feel more invisible and self-conscious the longer you wait.",
+        "insight": "Waiting to be chosen reinforces the belief that you don’t have permission to participate."
+      },
+      {
+        "id": "B",
+        "label": "Walk up, make eye contact with one person, and say, “Hey, can I join you? What are you all talking about?”",
+        "outcome": "Most groups open the circle slightly and include you naturally.",
+        "insight": "Simple, direct bids for inclusion often land better than the elaborate strategies we imagine."
+      },
+      {
+        "id": "C",
+        "label": "Leave the room and stay on your phone instead.",
+        "outcome": "You feel safer short term but miss a chance to practice low-stakes social courage.",
+        "insight": "Avoidance keeps anxiety comfortable but also keeps it in charge."
+      }
+    ]
+  }
+]

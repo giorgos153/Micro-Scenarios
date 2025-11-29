@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Silent 1:1s",
+    "category": "Leadership / 1:1s",
+    "situation": "Your weekly 1:1s feel flat. Your report answers questions briefly and rarely brings topics of their own.",
+    "question": "How do you change the pattern?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Keep asking, “So, how’s everything?” and hope they open up eventually.",
+        "outcome": "The meetings stay vague and surface-level.",
+        "insight": "Vague questions lead to vague answers. Structure can make it safer to share real topics."
+      },
+      {
+        "id": "B",
+        "label": "Introduce a simple structure: “Let’s spend 10 minutes on your wins, 10 on challenges, and 10 on anything you want from me.”",
+        "outcome": "They know what to prepare and the time feels more purposeful for both of you.",
+        "insight": "Clear containers help people bring more of what’s actually on their mind."
+      },
+      {
+        "id": "C",
+        "label": "Tell them they’re not using the 1:1 well and should come more prepared.",
+        "outcome": "They may feel criticized without knowing what “better” looks like.",
+        "insight": "It’s easier for people to step into a structure you create than a criticism you broadcast."
+      }
+    ]
+  }
+]
